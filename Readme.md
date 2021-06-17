@@ -19,4 +19,20 @@ As for the neural network we need numerical data, so a conversion from audio fil
 This is done in `prepare_dataset.py` file. This file makes a `json` file called `data.json` that has some informations about dataset 
 like numberical data which is calculated by `librosa` or their label or all the categories.
 
+## Model
+
+In this file we have builing and training the model which is a convolutional neural netowork.
+
+It first loads the data from the json file we mentioned earlier, then we split data to train, test, and validation sets using `sklearn`.
+
+### Network
+
+Here is the shape of neural network:
+
+![image](./images/network1.png)
+
+And here is datails:
+
+![image](./images/network2.png)
+
 *Made By Amirhossein Abaskohi*
