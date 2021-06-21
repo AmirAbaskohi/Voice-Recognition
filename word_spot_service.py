@@ -1,3 +1,4 @@
+from numpy import np
 import tensorflow.keras as keras
 
 # This is a singleton class :
@@ -40,7 +41,23 @@ class _WordSpotService:
         "up",
         "wow"
     ]
-    _instance = None        
+    _instance = None    \
+
+    def predict(self, file_path):
+
+        MFCCs = self.preprocess(file_path)
+
+        MFCCs = MFCCs[np.newaxis, ..., np.newaxis]
+
+        predictions = self.model.predict(MFCCs)
+        predictions = np.argmax(predictions)
+        predictions = self._mappings[predictions]
+
+        return predictions
+
+
+    def preprocess(self, file_path):
+        pass    
 
 
 def word_spot_servie():
