@@ -35,4 +35,27 @@ And here is datails:
 
 ![image](./images/network2.png)
 
+## Word Split Service
+
+In this file there is an singleton class which means just one instance of that class can exist.
+
+Here we give a file path then preprocess it, like what we did for train data and then we make prediction of that.
+
+Tets wav files should be in `tests` folder. To run this file in terminal you should run below command:
+
+```
+python3 python3 word_spot_service.py test_file_path
+```
+
+which test_file_path in it is the location of test_file_path that is a `txt` file in below format:
+
+```
+word1,word1_file_name
+word2,word2_file_name
+.
+.
+.
+word_n,word_n_file_name
+```
+
 *Made By Amirhossein Abaskohi*
