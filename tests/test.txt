@@ -1,0 +1,3 @@
+dog,dog.wav
+down,down.wav
+up,up.wav
