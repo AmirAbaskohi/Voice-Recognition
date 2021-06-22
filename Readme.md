@@ -58,4 +58,21 @@ word2,word2_file_name
 word_n,word_n_file_name
 ```
 
+## Server
+
+This file is based on Flask and invloves the API system.
+
+There is an just `POST` api called `predict` which gets an audio file and then return prediction response in json format.
+
+It receives the file from `files` in `request`.
+
+## Client
+
+To run this file you need to run the following command:
+```
+python3 client.py file_name
+```
+
+The file name is the name of file you want to send to api for prediction. The file should exist in `tests` folder.
+
 *Made By Amirhossein Abaskohi*
