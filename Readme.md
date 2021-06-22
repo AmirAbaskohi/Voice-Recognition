@@ -75,4 +75,12 @@ python3 client.py file_name
 
 The file name is the name of file you want to send to api for prediction. The file should exist in `tests` folder.
 
+# uWSGI
+
+`uWSGI` is a server application which speaks the `WSGI` specification.
+
+`WSGI` is a the abbriviation of `Web Server Gateway Interface` which is a server/app communication specification.
+
+`uwsgi` is `uWSGI` wire protocol.
+
 *Made By Amirhossein Abaskohi*
