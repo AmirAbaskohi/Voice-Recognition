@@ -83,4 +83,16 @@ The file name is the name of file you want to send to api for prediction. The fi
 
 `uwsgi` is `uWSGI` wire protocol.
 
+`app.ini` file is for `uwgi` run settings.
+
+To use it run command below:
+```
+uwsgi app.ini
+```
+
+Remember to install `uwsgi` by runnung command below:
+```
+pip install uwsgi
+```
+
 *Made By Amirhossein Abaskohi*
