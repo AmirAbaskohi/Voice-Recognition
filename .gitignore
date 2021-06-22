@@ -1,3 +1,6 @@
 # dataset related
 Dataset/
 data.json
+
+# cache
+__pycache__/
