@@ -2,7 +2,7 @@ import requests
 import sys
 from werkzeug.wrappers import response
 
-URL = "http://127.0.0.1:5050/predict"
+URL = "http://127.0.0.1/predict"
 
 if __name__ == "__main__":
 
