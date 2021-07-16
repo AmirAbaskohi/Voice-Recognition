@@ -124,4 +124,6 @@ Remeber you need to install docker which can be done by below command:
 sudo snapp install docker
 ```
 
+![](images/server.png?raw=true)
+
 *Made By Amirhossein Abaskohi*
