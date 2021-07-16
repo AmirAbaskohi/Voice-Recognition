@@ -95,4 +95,11 @@ Remember to install `uwsgi` by runnung command below:
 pip install uwsgi
 ```
 
+# NGinx
+NginX, is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. 
+
+Nginx can be deployed to serve dynamic HTTP content on the network using FastCGI, SCGI handlers for scripts, WSGI application servers or Phusion Passenger modules, and it can serve as a software load balancer.
+
+Here we have `nginx.conf` in `nginx` directory for using this web server.
+
 *Made By Amirhossein Abaskohi*
