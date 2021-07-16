@@ -102,4 +102,26 @@ Nginx can be deployed to serve dynamic HTTP content on the network using FastCGI
 
 Here we have `nginx.conf` in `nginx` directory for using this web server.
 
+# Docker
+Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.
+
+Using docker containers we can make our progeam protable.
+
+Docker commands are in `Dockerfile`s in `nginx` and `flask` directories. Also creating is done by `docker-compose.yml` pipleline.
+
+To build docker files use below command:
+```
+docker-compose build
+```
+
+And to run it use:
+```
+docker-compose up
+```
+
+Remeber you need to install docker which can be done by below command:
+```
+sudo snapp install docker
+```
+
 *Made By Amirhossein Abaskohi*
